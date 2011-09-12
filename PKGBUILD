@@ -1,7 +1,7 @@
 # Contributor : Devaev Maxim <mdevaev@gmail.com>
 
 pkgname=linux-scripts
-pkgver=20110723
+pkgver=20110912
 pkgrel=1
 pkgdesc="Additional useful scripts"
 arch=('any')
