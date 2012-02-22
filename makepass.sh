@@ -29,7 +29,7 @@ fi
 
 passwd=`echo -n "$first_passwd$1" | md5sum | awk '{print $1}'`
 if [ -n "$2" ]; then
-	passwd=`expr substr $first_passwd 1 $2`
+	passwd=`expr substr $passwd 1 $2`
 fi
 echo "Generated: $passwd"
 
